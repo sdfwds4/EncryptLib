@@ -1,0 +1,27 @@
+PODS:
+  - EncryptLib (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - EncryptLib (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  EncryptLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EncryptLib: dc18036f16d78ed831fde94f77f324df874451a8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 5fe6159550acf3aa3d33cbfc6178cd913f8cf959
+
+COCOAPODS: 1.9.3
